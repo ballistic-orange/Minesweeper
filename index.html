@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hud">
+        -: Flags :- <br>
+        <span id="flags">--</span>
+    </div>
+    <div id="top-bar">
+        <div class="options">
+            <span class="head-text">Grid : </span>
+            <input type="number" class="num-input" value="10" id="rows" min="2">
+            <span class="head-text"> × </span>
+            <input type="number" class="num-input" value="10" id="cols" min="2">
+        </div>
+        <div class="options">
+            <span class="head-text">No. of Mines : </span>
+            <input type="number" class="num-input" value="10" id="mines" min="1">
+        </div>
+        <button id="generate" onclick="genTable()">Generate</button>
+    </div>
+    <div id="play-area"></div>
+</body>
+<script src="script.js"></script>
+</html>

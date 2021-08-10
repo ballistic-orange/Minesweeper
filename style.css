@@ -1,0 +1,91 @@
+body{
+    text-align: center;
+}
+
+#top-bar{
+    background-color: lightskyblue;
+    display: inline-block;
+
+    border-radius: 5px;
+    text-align: center;
+}
+
+.options{
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.hud{
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+    background-color: lightpink;
+}
+
+#flags{
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: monospace;
+}
+
+.head-text{
+    color: darkred;
+
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.num-input{
+    border-radius: 2px;
+    width: 4ch;
+    font-size: 20px;
+    text-align: center;
+}
+
+#generate{
+    margin: 15px;
+    padding: 10px;
+
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
+
+#play-area{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    padding: 10px;
+
+    border-radius: 5px;
+    border-color: brown;
+    border-width: 3px;
+
+    text-align: center;   
+}
+
+#play-area table{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#play-area td{
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+}
